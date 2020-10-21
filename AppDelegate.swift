@@ -20,6 +20,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UIImagePickerControllerDel
                       $0.server = "https://parseapi.back4app.com"
               }
               Parse.initialize(with: parseConfig)
+//        guard let windowScene = (scene as? UIWindowScene ) else {return}
+//        if PFUser.current() != nil{
+//             let main = UIStoryboard(name: "Main", bundle: nil)
+//            self.window = UIWindow(windowScene: windowScene)
+//            self.window?.rootViewController =
+//            let feedNavigationController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
+       
+            
+        //}
         return true
     }
 
